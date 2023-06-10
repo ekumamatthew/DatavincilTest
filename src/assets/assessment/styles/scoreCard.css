@@ -1,0 +1,42 @@
+.cardbody {
+  display: flex;
+  background: linear-gradient(to right, rgb(134, 239, 172), rgb(192, 132, 252));
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: black;
+  box-shadow: 10px;
+  width: 450px;
+  height: 260px;
+  gap: 30px;
+}
+
+.imageDiv {
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.image {
+  border-radius: 100px;
+  width: 180px;
+  height: 180px;
+}
+
+.bodyText {
+  position: relative;
+  top: 10px;
+}
+
+.headText {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+}
+.details {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(40, 39, 39);
+}
